@@ -7,8 +7,8 @@ from twilio.twiml.voice_response import VoiceResponse
 # Set environment variables for your credentials
 # Read more at http://twil.io/secure
 
-account_sid = "ACf6824a516890c2af9fe97dd44e79e887"
-auth_token = "8d0d5f80d101ea6104f8e61a64f43647"
+account_sid = ""
+auth_token = ""
 client = Client(account_sid, auth_token)
 
 def create_twiml():
